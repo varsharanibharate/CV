@@ -1,0 +1,145 @@
+.main-container {
+    width: 90%;
+    box-shadow: none;
+    margin: 10px;
+ 
+}
+
+@media screen and (min-width: 768px) {
+    .main-container {
+        width: 100%;
+    }
+}
+
+.left-container {
+    background-color: #dcdcdc;
+    height: 100%;
+    width: 35%;
+}
+
+@media screen and (min-width: 768px) {
+    .left-container {
+        width: 40%;
+    }
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.name {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    padding-top: 5px;
+}
+
+.description {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #D2B4DE;
+}
+
+.icons {
+    color: #000000;
+    padding-left: 20px;
+}
+
+.degree {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    color: #00000;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-right: 100px;
+}
+
+.university {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.right-container {
+    height: 100%;
+}
+
+.card {
+    box-shadow: none;
+    margin: 8px;
+    padding: 10px;
+}
+
+.experiance-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.role {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    color: #00000;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 100px;
+}
+
+.date {
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.company {
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 12px;
+    padding-left: 10px;
+
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills-title {
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left: 10px;
+
+
+}
+
+.hr-line {
+    background-color: #000000;
+
+}
+
+.info {
+    position: relative;
+}
